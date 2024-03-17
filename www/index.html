@@ -3,16 +3,40 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-    <meta http-equiv="Content-Security-Policy" content="default-src * data: gap: content: https://ssl.gstatic.com; style-src * 'unsafe-inline'; script-src * 'unsafe-inline' 'unsafe-eval'">
-    <script src="components/loader.js"></script>
-    <link rel="stylesheet" href="components/loader.css">
     <link rel="stylesheet" href="css/style.css">
-    <script> 
-        alert ('App de acessibilidade')   
-       </script>
+    <script src="https://cdn.jsdelivr.net/npm/invert-colors@1.0.1/dist/invert-colors.min.js"></script>
+
 </head>
 <body>
-	<br />
-    This is a template for Monaca app.
+
+    <nav>
+        <ul>
+            <li><a href="/www/index.html">Inicio</a></li>
+            <li><a href="/www/vantagens.html">Vantagens</a></li>
+            <li><a href="/www/tipos.html">Tipos</a></li>
+        </ul>
+    </nav>
+
+	 <h1 class="titulo">Acessibilidade digital</h1>
+   
+<h1>Oque é?</h1>
+<p>A acessibilidade digital é a prática de tornar tecnologias e conteúdos digitais acessíveis para pessoas com deficiências ou limitações, incluindo deficiências visuais, auditivas, motoras e cognitivas. Isso envolve fazer sites, aplicativos e outros recursos digitais utilizáveis por meio de tecnologias assistivas, como leitores de tela, legendas em vídeos e teclados navegáveis. Essas práticas não apenas ajudam pessoas com deficiências, mas também melhoram a experiência de todos os usuários
+</p>
+
+
+
+   
+
+
+<div vw class="enabled">
+    <div vw-access-button class="active"></div>
+    <div vw-plugin-wrapper>
+      <div class="vw-plugin-top-wrapper"></div>
+    </div>
+  </div>
+  <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+  <script>
+    new window.VLibras.Widget('https://vlibras.gov.br/app');
+  </script>
 </body>
 </html>

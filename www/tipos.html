@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><link rel="stylesheet" href="css/style.css">
+    <title>Tipos de acessibilidade digital</title>
+</head>
+<body>
+ <nav>
+        <ul>
+            <li><a href="/www/index.html">Inicio</a></li>
+            <li><a href="/www/vantagens.html">Vantagens</a></li>
+            <li><a href="/www/tipos.html">Tipos</a></li>
+        </ul>
+    </nav>
+
+ <h1 class="titulo">Tipos de acessibilidade</h1>
+    
+    <h2>Perceptível</h2>
+    <p>Todos os elementos, incluindo as informações gráficas e textuais da página, devem estar perceptíveis aos sentidos. Nada pode estar invisível ou escondido. </p>
+    
+    <h2>Operável</h2>
+    <p>Os botões, controles e outros elementos interativos da página, devem ser operados com cliques e outras adaptações, como: rolando, deslizando, comando de voz e outros dispositivos assistivos.
+    </p>
+    <h2>Compreensível</h2>
+ <p>   Todas as informações disponíveis, incluindo botões e seus direcionamentos, devem estar apresentadas de forma lógica e compreensível para todos os usuários.</p>
+    
+    <h2>Robusto</h2>
+  <p>  O conteúdo da página deve ser compatível com todos os dispositivos, incluindo as tecnologias assistivas. </p>
+
+<div vw class="enabled">
+    <div vw-access-button class="active"></div>
+    <div vw-plugin-wrapper>
+      <div class="vw-plugin-top-wrapper"></div>
+    </div>
+  </div>
+  <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+  <script>
+    new window.VLibras.Widget('https://vlibras.gov.br/app');
+  </script>
+</body>
+</html>
